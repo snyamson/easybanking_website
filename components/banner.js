@@ -22,7 +22,7 @@ const Banner = () => {
           src="/image-mockups.png"
           alt="mockups"
           className="absolute "
-          style={{ width: "95%", left: "2.5%", top: "-35%" }}
+          style={{ width: "95%", left: "2.5%", top: "-36%" }}
         />
       </div>
     </div>

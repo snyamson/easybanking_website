@@ -82,7 +82,6 @@ const Header = () => {
           <RequestInviteBtn />
         </div>
       </header>
-
       {/* Mobile Navigator */}
       <header
         className={`lg:hidden w-screen h-20 flex items-center justify-between px-10 overflow-hidden fixed top-0 z-30 shadow-sm bg-neutral-white `}
@@ -106,21 +105,23 @@ const Header = () => {
         </nav>
       </header>
 
-      {/* Nav Menu Items */}
+      {/* Nav Menu Items Wrapper */}
+
       <nav
         className={`${
-          navOpen ? "block" : "hidden"
-        } w-10/12 h-80 bg-neutral-white absolute z-20 top-28  rounded-md lg:hidden `}
+          navOpen ? "hidden" : "hidden"
+        } w-10/12 h-80 bg-neutral-white fixed z-20 top-28  rounded-md lg:hidden `}
         style={{
           left: "8.3%",
         }}
       ></nav>
 
       {/* Backdrop */}
+
       <div
-        className={`${
-          navOpen ? "block" : "hidden"
-        } absolute h-screen w-screen z-10 bg-black bg-opacity-40 lg:hidden `}
+        className={`transform transition duration-100 ${
+          navOpen ? "scale-100" : "scale-0"
+        }  scale-0  fixed h-screen w-screen z-10 bg-black bg-opacity-40 lg:hidden `}
       />
     </>
   );
