@@ -85,9 +85,7 @@ const Header = () => {
 
       {/* Mobile Navigator */}
       <header
-        className={`${
-          visible ? "top-0" : "-top-20"
-        }  transition-all duration-500 lg:hidden w-screen h-20 flex items-center justify-between px-10 overflow-hidden fixed z-30 shadow-sm bg-neutral-white `}
+        className={`lg:hidden w-screen h-20 flex items-center justify-between px-10 overflow-hidden fixed top-0 z-30 shadow-sm bg-neutral-white `}
       >
         <nav className="w-full ">
           <div className="h-full w-full flex justify-between">
