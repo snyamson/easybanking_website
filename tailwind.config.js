@@ -6,8 +6,8 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     backgroundImage: {
-      "intro-mobile": "url('/bg-into-mobile.svg')",
-      "desktop-desktop": "url('/bg-intro-desktop.svg')",
+      "intro-mobile": "url('/bg-intro-mobile.svg')",
+      "intro-desktop": "url('/bg-intro-desktop.svg')",
     },
     colors: {
       ...colors,
