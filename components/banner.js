@@ -3,10 +3,10 @@ import RequestInviteBtn from "./requestInviteBtn";
 const Banner = () => {
   return (
     <div className="flex flex-col-reverse md:flex-row mt-20 bg-green-500">
-      <div className="flex-1 bg-neutral-white pt-8">
+      <div className="flex-1 bg-neutral-white pt-10">
         <div className="px-4 text-center pb-16">
           <h1 className="text-5xl"> Next generation digital banking</h1>
-          <p className="my-8">
+          <p className="my-8 text-neutral-light_grayish_blue">
             Take your financial life online. Your Easybank account will be a
             one-stop-shop for spending, saving, budgeting, investing, and much
             more.
@@ -16,7 +16,7 @@ const Banner = () => {
       </div>
       <div
         className="flex 1 bg-intro-mobile  bg-no-repeat bg-cover bg-center bg-neutral-white relative"
-        style={{ height: "22rem" }}
+        style={{ height: "23rem" }}
       >
         <img
           src="/image-mockups.png"

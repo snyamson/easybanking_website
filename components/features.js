@@ -33,7 +33,7 @@ const features = [
 
 const Features = () => {
   return (
-    <div className=" pt-20 pb-16 bg-neutral-v_light_gray lg:px-28">
+    <div className=" pt-20 px-5 text-center pb-16 bg-neutral-v_light_gray lg:px-28">
       <div className="mb-9 ml-5">
         <h1 className="text-4xl tracking-tight">Why choose Easybank?</h1>
         <div className="mt-6 mb-16 text-neutral-grayish_blue">

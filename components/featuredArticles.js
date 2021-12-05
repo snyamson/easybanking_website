@@ -37,7 +37,7 @@ const articles = [
 
 const FeaturedArticles = () => {
   return (
-    <div className="bg-neutral-white pt-20 pb-16 lg:px-28">
+    <div className="bg-neutral-white text-center px-5 pt-20 pb-16 lg:px-28">
       <div className="mb-10">
         <h1 className="text-4xl ml-5">Latest Articles</h1>
       </div>
