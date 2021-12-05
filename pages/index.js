@@ -7,7 +7,7 @@ import RequestInviteBtn from "../components/requestInviteBtn";
 
 export default function Home() {
   return (
-    <main className="box-border w-screen overflow-hidden font-public_sans bg-red-500">
+    <main className="box-border w-screen overflow-hidden font-public_sans">
       <Banner />
       <Features />
       <FeaturedArticles />
