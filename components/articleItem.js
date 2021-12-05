@@ -2,7 +2,7 @@
 
 const ArticleItem = ({ item }) => {
   return (
-    <div className="h-96 w-80 md:w-64 rounded-md overflow-hidden mb-4 shadow">
+    <div className="h-96 w-80 md:w-64 rounded-md overflow-hidden mb-8 text-left shadow">
       <div className="h-1/2">
         <img
           src={`/image-${item.imageName}.jpg`}
